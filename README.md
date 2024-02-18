@@ -18,9 +18,11 @@ Here is a list following features we wish to entail.
 upon selecting the subscribtion)
 Notes: A user can always disable their subscription and terminating ones account should also remove their information from the internal database.
 
-3. Making the website modular and easy to build up.
+2.Modular Design and selfsustaining:Making the website modular and easy to build up.
+
 2.1: The way we wanna make it modular is to have a set of preset designs a contributor / Superuser can pick between and then after filling in the information the first page. A box with a plus sign will appear where the user can select
 from a multitude of options, from a text file to a code block, to a youtube inbedment, image (jpg / PNG) , textblock or some other form of media input. Once it has been added it's possible for the user to Edit and Delete their page. 
+
 2.2: Every course will have a preset of information that most be required such as a code language, educator, subject and which field in IT this serves.
 Notes: I believe that this can be a useful way to allow SuperUsers and Contributors to push out more content for the site itself and make it sustainable.
 

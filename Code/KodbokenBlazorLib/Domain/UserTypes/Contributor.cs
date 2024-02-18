@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using KodbokenBlazorLib.Enum;
 
 namespace KodbokenBlazorLib.Contributors
 {
@@ -17,8 +18,7 @@ namespace KodbokenBlazorLib.Contributors
         public string Password { get; set; } = string.Empty;
         public string Description { get; set; } = string.Empty;
 
-        public string ProgramLang { get; set; } = string.Empty;
-
+        public ProgrammingLang? ProgrammingLang { get; set; }
         public bool HasProfilePic { get; set; } = default!;
 
     }

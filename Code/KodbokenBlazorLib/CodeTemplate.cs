@@ -1,4 +1,4 @@
-﻿namespace KodbokenBlazorLib
+﻿namespace KodbokenBlazor
 {
     public class CodeTemplate
     {

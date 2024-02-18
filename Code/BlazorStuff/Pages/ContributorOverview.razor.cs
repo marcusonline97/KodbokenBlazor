@@ -1,6 +1,6 @@
 ﻿namespace KodbokenBlazor.App.Pages
 {
-    public class ContributorOverview
+    public partial class ContributorOverview
     {
     }
 }

@@ -10,6 +10,14 @@ namespace KodbokenBlazorLib.Enum
     {
 
     }
+
+    public enum Gender
+    {
+        Male,
+        Female,
+        Nonbinary,
+        Other
+    }
     public enum ProgrammingLang
     {
         Scratch,
@@ -27,7 +35,9 @@ namespace KodbokenBlazorLib.Enum
         SQL,
         Assembly,
         Basic,
-        OpenGL
+        OpenGL,
+        Ruby,
+        React
     }
     //Enums for our ProgrammingLanguages
 }

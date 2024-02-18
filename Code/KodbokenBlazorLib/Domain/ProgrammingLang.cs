@@ -4,30 +4,18 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace KodbokenBlazorLib.Enum
+namespace KodbokenBlazorLib.Domain
 {
-    public class Enum
-    {
-
-    }
-
-    public enum Gender
-    {
-        Male,
-        Female,
-        Nonbinary,
-        Other
-    }
     public enum ProgrammingLang
     {
         Scratch,
-        Python, 
+        Python,
         Lua,
         C,
         Cplusplus,
-        Rust, 
+        Rust,
         CSharp,
-        Javascript, 
+        Javascript,
         Blueprints,
         ComponentBased,
         Java,
@@ -39,5 +27,4 @@ namespace KodbokenBlazorLib.Enum
         Ruby,
         React
     }
-    //Enums for our ProgrammingLanguages
 }

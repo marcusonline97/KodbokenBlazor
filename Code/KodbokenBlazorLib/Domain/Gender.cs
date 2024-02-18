@@ -4,10 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace KodbokenBlazorLib.CourseMembers
+namespace KodbokenBlazorLib.Domain
 {
-    internal class CourseMembers
+    public enum Gender
     {
-
+        Male,
+        Female,
+        Nonbinary,
+        Other
     }
 }

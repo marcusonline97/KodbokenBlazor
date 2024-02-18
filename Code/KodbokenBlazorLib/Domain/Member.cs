@@ -16,9 +16,9 @@ namespace KodbokenBlazorLib.Domain
         public string Password { get; set; } = string.Empty;
         public bool IsPasswordVerified { get; set; }
 
-        public string EmailVerified { get; set; } = string.Empty!;
+        public bool EmailVerified { get; set; }
 
-        public UserTypes? UserTypes { get; set; } = default!;
+        public UserTypes UserTypes { get; set; }
         public Gender gender { get; set; }
 
         public ProgrammingLang programmingLang { get; set; }

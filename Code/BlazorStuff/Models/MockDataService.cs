@@ -1,16 +1,30 @@
-﻿using KodbokenBlazorLib.Enum;
+﻿using KodbokenBlazorLib.Domain;
+using KodbokenBlazorLib.Enum;
+using System.Collections.Specialized;
 using System.ComponentModel;
 
 namespace KodbokenBlazor.App
 {
 
-  /*  public class MockDataService
+    public class MockdataService
     {
-         private static List<CourseMember> InitializeMockCourseMember()
+        private static List<Member> InitializeMockMember()
         {
-            var e1 = new CourseMember
+            var e1 = new Member()
+            {
+                MemberId = 1,
+                UserName = "User123",
+                Email = "ExampleEmail@gmail.com",
+                Password = "123",
+                IsPasswordVerified = true,
+                EmailVerified = true,
+                UserTypes = UserTypes.SuperUser,
+
+            };
         }
     }
+  /*  public class MockDataService
+
 
     private static List<Employee>? _employees = default!;
     private static List<JobCategory> _jobCategories = default!;

@@ -4,7 +4,7 @@ At the time it is just me MarcusOnline97 and Bitpaw working on this site.
 The scope is very great and we have a continual scope to maintain and improve upon the site.
 Here is a list following features we wish to entail.
 
-1. Having a set variety of users.
+1.Roles: Having a set variety of user roles.
 
 1.1: Developer/Administrator = Consists of developers who work on the site and make adjustments and changes to improve on what may be needed.
 

@@ -10,8 +10,24 @@ namespace KodbokenBlazorLib.Enum
     {
 
     }
-    public class ProgrammingLang
+    public enum ProgrammingLang
     {
-
+        Scratch,
+        Python, 
+        Lua,
+        C,
+        Cplusplus,
+        Rust, 
+        CSharp,
+        Javascript, 
+        Blueprints,
+        ComponentBased,
+        Java,
+        Php,
+        SQL,
+        Assembly,
+        Basic,
+        OpenGL
     }
+    //Enums for our ProgrammingLanguages
 }

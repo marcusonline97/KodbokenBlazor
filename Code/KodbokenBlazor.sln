@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34607.119
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KodbokenBlazor.App", "BlazorStuff\KodbokenBlazor.App.csproj", "{8D4B6304-2609-4897-912F-EA97B13719A7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KodbokenBlazor2.0.App", "BlazorStuff\Kodboken2.0.csproj", "{8D4B6304-2609-4897-912F-EA97B13719A7}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KodbokenBlazorLib", "KodbokenBlazorLib\KodbokenBlazorLib.csproj", "{94C80674-52A7-42B6-89A0-AEEF914D9637}"
 EndProject

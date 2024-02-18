@@ -1,4 +1,4 @@
-using KodbokenBlazor.App;
+using Kodboken2._0;
 using Microsoft.AspNetCore.Components.Web;
 using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
 

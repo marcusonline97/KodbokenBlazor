@@ -1,7 +1,11 @@
 ﻿using KodbokenBlazorLib.Domain;
 using KodbokenBlazorLib.Enum;
+using System.Collections;
 using System.Collections.Specialized;
 using System.ComponentModel;
+using System.Diagnostics;
+using System.Linq.Expressions;
+using System.Security.Cryptography.X509Certificates;
 
 namespace KodbokenBlazor.App
 {
@@ -10,17 +14,25 @@ namespace KodbokenBlazor.App
     {
         private static List<Member> InitializeMockMember()
         {
-            var e1 = new Member()
-            {
-                MemberId = 1,
-                UserName = "User123",
-                Email = "ExampleEmail@gmail.com",
-                Password = "123",
-                IsPasswordVerified = true,
-                EmailVerified = true,
-                UserTypes = UserTypes.SuperUser,
 
-            };
+           List<Member> members = new List<Member>();
+
+            Member member = new Member
+            (
+                1,
+                "User123",
+                "ExampleEmail@gmail.com",
+                "123",
+                true,
+                true,
+                UserTypes.SuperUser,
+                Gender.Male,
+                ProgrammingLang.Scratch
+
+            );
+
+            members.Add( member );
+            return members;
         }
     }
   /*  public class MockDataService

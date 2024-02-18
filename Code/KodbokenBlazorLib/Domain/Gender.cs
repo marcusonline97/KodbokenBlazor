@@ -11,6 +11,7 @@ namespace KodbokenBlazorLib.Domain
         Male,
         Female,
         Nonbinary,
-        Other
+        Other,
+        Undefined
     }
 }

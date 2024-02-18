@@ -11,7 +11,8 @@ namespace KodbokenBlazorLib.Enum
         SuperUser,
         Contributor,
         StandardMember,
-        CourseMember
+        CourseMember,
+        InvalidMember
     }
 
     

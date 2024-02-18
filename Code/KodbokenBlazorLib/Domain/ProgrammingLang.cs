@@ -25,6 +25,7 @@ namespace KodbokenBlazorLib.Domain
         Basic,
         OpenGL,
         Ruby,
-        React
+        React,
+        UnexistingLang
     }
 }

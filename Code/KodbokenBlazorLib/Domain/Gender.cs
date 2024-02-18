@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace KodbokenBlazorLib
+namespace KodbokenBlazor
 {
     public enum Gender
     {

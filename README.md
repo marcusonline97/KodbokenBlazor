@@ -33,12 +33,15 @@ from a multitude of options, from a text file to a code block, to a youtube inbe
    - 2.2) Every course will have a preset of information that most be required such as a code language, educator, subject and which field in IT this serves.
 Notes: I believe that this can be a useful way to allow SuperUsers and Contributors to push out more content for the site itself and make it sustainable.
 
-- 3.) ???
+- 3.) Layout: Currently the idea of to have a main bar that consists of the websites information, documentation, contact information and other useful links to help give feedback.
+  We plan to add a navbar that will on the site be represented as a book with bookmarks of different languages which serve to provide the user with chapters of different code languages to explore and learn more from.
+To the said code pages things such as resource links, project links and preset pages will also be provided.
 
 - 4.) Limitations
 
 - 5.) Roadmap<br>
      This site is intended to allow users of various ages with a goal of a young demographic however we want to also provide a good roadmap for young and upcoming developers who want to find out where they need to go in order to grow as a developer and eventually reach a job position.
+  This will be structured out with a tree design with various different branches to help people know how they can progress onto different fields in tech
 
    - 5.1) Game Development:  
 
